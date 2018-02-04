@@ -1,0 +1,12 @@
+#!/sbin/openrc-run
+# Distributed under the terms of the GNU General Public License v2
+
+description="Wrapper for edac-util"
+
+pidfile="/run/${SVCNAME}.pid"
+command=/usr/bin/euw
+command_args="${EUW_ARGS}"
+command_background="true"
+
+start_stop_daemon_args="-u ${EUW_USER}"
+

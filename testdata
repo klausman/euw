@@ -1,0 +1,6 @@
+mc0:csrow0:mc#0csrow#0channel#0:CE:1
+mc0:csrow0:mc#0csrow#0channel#1:CE:2
+mc0:csrow1:mc#0csrow#1channel#0:CE:3
+mc0:csrow1:mc#0csrow#1channel#1:CE:4
+mc0:noinfo:all:UE:5
+mc0:noinfo:all:CE:6

@@ -1,0 +1,2 @@
+EUW_ARGS="-poll -delay 10s -logzero 10m"
+EUW_USER="nobody"
