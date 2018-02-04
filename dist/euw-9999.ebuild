@@ -26,8 +26,8 @@ RDEPEND="${DEPEND}"
 src_install() {
 	dobin ${PN}
 
-	doinitd init/${PN}.openrc
-	doconfd init/${PN}.default
+	newinitd src/${EGO_PN}/init/${PN}.openrc euw
+	newconfd src/${EGO_PN}/init/${PN}.default euw
 
 	declare -a DOCS
 	DOCS+=(src/${EGO_PN}/README.md)
